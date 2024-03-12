@@ -42,6 +42,9 @@ section#login > div#imagem {
     background: #5f2c82 url('../imagens/pexels-pixabay-434659.jpg') no-repeat left center;
     background-size: cover;
     height: 200px;
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 section#login > div#formulario {
     display: block;
